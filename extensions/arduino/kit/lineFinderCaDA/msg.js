@@ -35,7 +35,7 @@ function addMsg (Blockly) {
             "LINEFINDERCADA_RUNTASK": "run task %1",
             "LINEFINDERCADA_STEPACTION": "step %1 run %2",
             "LINEFINDERCADA_NONE": "none",
-            "LINEFINDERCADA_ACTIONSTARTBYPASS": "exit base",
+            "LINEFINDERCADA_ACTIONSTARTBYPASS": "start line finder",
             "LINEFINDERCADA_ACTIONCROSSBYPASS": "cross the crossroads",
             "LINEFINDERCADA_ACTIONCROSSTURNLEFT": "turn left at crossroads",
             "LINEFINDERCADA_ACTIONCROSSTURNRIGHT": "turn right at crossroads",
@@ -79,7 +79,10 @@ function addMsg (Blockly) {
             "LINEFINDERCADA_ACTIONGOFORWARD": "keep go forward",
             "LINEFINDERCADA_ACTIONGOBACKWARD": "keep go backward",
             "LINEFINDERCADA_ACTIONGOLEFT": "keep go left",
-            "LINEFINDERCADA_ACTIONGORIGHT": "keep go right"
+            "LINEFINDERCADA_ACTIONGORIGHT": "keep go right",
+            "LINEFINDERCADA_SETTIMERDUAL": "set timer left %1 right %2",
+            "LINEFINDERCADA_ACTIONLINEFINDERTRIG": "line finder %1 trig",
+            "LINEFINDERCADA_ACTIONTILTTURN": "drive tilt %1 turn %2 update"
         }
     );
 
@@ -111,7 +114,7 @@ function addMsg (Blockly) {
             "LINEFINDERCADA_TASK": "任务 %1",
             "LINEFINDERCADA_RUNTASK": "执行任务 %1",
             "LINEFINDERCADA_STEPACTION": "步骤 %1 执行 %2",
-            "LINEFINDERCADA_ACTIONSTARTBYPASS": "驶出基地",
+            "LINEFINDERCADA_ACTIONSTARTBYPASS": "巡线启动",
             "LINEFINDERCADA_ACTIONCROSSBYPASS": "穿过十字路口",
             "LINEFINDERCADA_ACTIONCROSSTURNLEFT": "十字路口左转",
             "LINEFINDERCADA_ACTIONCROSSTURNRIGHT": "十字路口右转",
@@ -155,7 +158,10 @@ function addMsg (Blockly) {
             "LINEFINDERCADA_ACTIONGOFORWARD": "继续前进",
             "LINEFINDERCADA_ACTIONGOBACKWARD": "继续后退",
             "LINEFINDERCADA_ACTIONGOLEFT": "继续左转",
-            "LINEFINDERCADA_ACTIONGORIGHT": "继续右转"
+            "LINEFINDERCADA_ACTIONGORIGHT": "继续右转",
+            "LINEFINDERCADA_SETTIMERDUAL": "设定计时左 %1 右 %2",
+            "LINEFINDERCADA_ACTIONLINEFINDERTRIG": "巡线中 %1 触发",
+            "LINEFINDERCADA_ACTIONTILTTURN": "行驶倾斜 %1 转弯 %2 更新"
         }
     );
 
@@ -187,7 +193,7 @@ function addMsg (Blockly) {
             "LINEFINDERCADA_TASK": "任務 %1",
             "LINEFINDERCADA_RUNTASK": "執行任務 %1",
             "LINEFINDERCADA_STEPACTION": "步驟 %1 執行 %2",
-            "LINEFINDERCADA_ACTIONSTARTBYPASS": "駛出基地",
+            "LINEFINDERCADA_ACTIONSTARTBYPASS": "巡線啟動",
             "LINEFINDERCADA_ACTIONCROSSBYPASS": "穿越十字路口",
             "LINEFINDERCADA_ACTIONCROSSTURNLEFT": "十字路口左轉",
             "LINEFINDERCADA_ACTIONCROSSTURNRIGHT": "十字路口右轉",
@@ -200,7 +206,7 @@ function addMsg (Blockly) {
             "LINEFINDERCADA_TURNLEFT": "左轉",
             "LINEFINDERCADA_TURNRIGHT": "右轉",
             "LINEFINDERCADA_FORWARD": "前進",
-             "LINEFINDERCADA_BACKWARD": "後退",
+            "LINEFINDERCADA_BACKWARD": "後退",
             "LINEFINDERCADA_ACTIONSIDETURNLEFT": "丁字路口左轉",
             "LINEFINDERCADA_ACTIONSIDETURNRIGHT": "丁字路口右轉",
             "LINEFINDERCADA_ACTIONSIDERETURNLEFT": "丁字路口左轉掉頭",
@@ -231,7 +237,10 @@ function addMsg (Blockly) {
             "LINEFINDERCADA_ACTIONGOFORWARD": "繼續前進",
             "LINEFINDERCADA_ACTIONGOBACKWARD": "繼續後退",
             "LINEFINDERCADA_ACTIONGOLEFT": "繼續左轉",
-            "LINEFINDERCADA_ACTIONGORIGHT": "繼續往右轉"
+            "LINEFINDERCADA_ACTIONGORIGHT": "繼續往右轉",
+            "LINEFINDERCADA_SETTIMERDUAL": "設定計時左 %1 右 %2",
+            "LINEFINDERCADA_ACTIONLINEFINDERTRIG": "巡線中 %1 觸發",
+            "LINEFINDERCADA_ACTIONTILTTURN": "行駛傾斜 %1 轉彎 %2 更新"
         }
     );
 

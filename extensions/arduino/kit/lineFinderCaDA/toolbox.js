@@ -22,6 +22,18 @@ function addToolbox () {
             </shadow>
         </value>
     </block>
+    <block type="lineFinderCaDA_setTimerDual" id="lineFinderCaDA_setTimerDual">
+        <value name="LEFT">
+            <shadow type="math_0to1000_number">
+                <field name="NUM">100</field>
+            </shadow>
+        </value>
+        <value name="RIGHT">
+            <shadow type="math_0to1000_number">
+                <field name="NUM">100</field>
+            </shadow>
+        </value>
+    </block>
     <block type="lineFinderCaDA_setSpeed" id="lineFinderCaDA_setSpeed">
         <value name="LINE">
             <shadow type="math_uint8_number">
@@ -347,6 +359,7 @@ function addToolbox () {
         </value>
     </block>
     <block type="lineFinderCaDA_actionWaitAck" id="lineFinderCaDA_actionWaitAck"></block>
+    <block type="lineFinderCaDA_actionLineFindeTrig" id="lineFinderCaDA_actionLineFindeTrig"></block>
     <block type="lineFinderCaDA_actionMultiPortAct" id="lineFinderCaDA_actionMultiPortAct">
         <value name="LEVEL">
             <shadow type="math_positive_number">
@@ -384,6 +397,18 @@ function addToolbox () {
                 <field name="NUM">0</field>
             </shadow>
         </value>
+    </block>
+    <block type="lineFinderCaDA_actionTiltTurn" id="lineFinderCaDA_actionTiltTurn">
+        <value name="LEAN">
+            <shadow type="math_unint8_number">
+                <field name="NUM">-30</field>
+            </shadow>
+        </value>
+        <value name="TURN">
+            <shadow type="math_unint8_number">
+                <field name="NUM">-20</field>
+            </shadow>
+        </value>  
     </block>
 </category>`;
 }

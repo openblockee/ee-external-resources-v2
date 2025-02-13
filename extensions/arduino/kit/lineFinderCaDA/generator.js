@@ -12,6 +12,8 @@ function addGenerator(Blockly) {
         const func = block.getFieldValue('FUNC');
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887'];       
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -25,6 +27,8 @@ function addGenerator(Blockly) {
         const turn = Blockly.Arduino.valueToCode(block, 'TURN', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -38,6 +42,8 @@ function addGenerator(Blockly) {
         const turn = Blockly.Arduino.valueToCode(block, 'TURN', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -51,6 +57,8 @@ function addGenerator(Blockly) {
         const right = Blockly.Arduino.valueToCode(block, 'RIGHT', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -63,6 +71,8 @@ function addGenerator(Blockly) {
         const right = Blockly.Arduino.valueToCode(block, 'RIGHT', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -78,6 +88,8 @@ function addGenerator(Blockly) {
         const gr = Blockly.Arduino.valueToCode(block, 'GR', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -90,6 +102,8 @@ function addGenerator(Blockly) {
         const turn = Blockly.Arduino.valueToCode(block, 'TURN', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -102,6 +116,8 @@ function addGenerator(Blockly) {
         const peripherals = block.getFieldValue('PERIPHERALS');
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -113,6 +129,8 @@ function addGenerator(Blockly) {
         const num = block.getFieldValue('NUM');
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -131,6 +149,8 @@ function addGenerator(Blockly) {
         const action = Blockly.Arduino.valueToCode(block, 'ACTION', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -146,6 +166,8 @@ if (vStepSeq == ${step}) {
 
     Blockly.Arduino.lineFinderCaDA_actionStartBypass = function (block) {
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -155,6 +177,8 @@ if (vStepSeq == ${step}) {
 
     Blockly.Arduino.lineFinderCaDA_actionCrossBypass = function (block) {
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -164,6 +188,8 @@ if (vStepSeq == ${step}) {
 
     Blockly.Arduino.lineFinderCaDA_actionCrossTurnLeft = function (block) {
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -173,6 +199,8 @@ if (vStepSeq == ${step}) {
 
     Blockly.Arduino.lineFinderCaDA_actionCrossTurnRight = function (block) {
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -182,6 +210,8 @@ if (vStepSeq == ${step}) {
 
     Blockly.Arduino.lineFinderCaDA_actionCrossReturnLeft = function (block) {
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -191,6 +221,8 @@ if (vStepSeq == ${step}) {
 
     Blockly.Arduino.lineFinderCaDA_actionCrossReturnRight = function (block) {
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -202,6 +234,8 @@ if (vStepSeq == ${step}) {
         const side = block.getFieldValue('SIDE');
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -211,6 +245,8 @@ if (vStepSeq == ${step}) {
 
     Blockly.Arduino.lineFinderCaDA_actionSideTurnLeft = function (block) {
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -220,6 +256,8 @@ if (vStepSeq == ${step}) {
 
     Blockly.Arduino.lineFinderCaDA_actionSideTurnRight = function (block) {
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -229,6 +267,8 @@ if (vStepSeq == ${step}) {
 
     Blockly.Arduino.lineFinderCaDA_actionSideReturnLeft = function (block) {
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -238,6 +278,8 @@ if (vStepSeq == ${step}) {
 
     Blockly.Arduino.lineFinderCaDA_actionSideReturnRight = function (block) {
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -249,6 +291,8 @@ if (vStepSeq == ${step}) {
         const time = Blockly.Arduino.valueToCode(block, 'TIME', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -260,6 +304,8 @@ if (vStepSeq == ${step}) {
         const dist = Blockly.Arduino.valueToCode(block, 'DIST', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -272,6 +318,8 @@ if (vStepSeq == ${step}) {
         const speed = Blockly.Arduino.valueToCode(block, 'SPEED', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -284,6 +332,8 @@ if (vStepSeq == ${step}) {
         const speed = Blockly.Arduino.valueToCode(block, 'SPEED', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -293,6 +343,8 @@ if (vStepSeq == ${step}) {
 
     Blockly.Arduino.lineFinderCaDA_actionGoForward = function () {
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -304,6 +356,8 @@ if (vStepSeq == ${step}) {
         const time = Blockly.Arduino.valueToCode(block, 'TIME', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -315,6 +369,8 @@ if (vStepSeq == ${step}) {
         const dist = Blockly.Arduino.valueToCode(block, 'DIST', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -327,6 +383,8 @@ if (vStepSeq == ${step}) {
         const speed = Blockly.Arduino.valueToCode(block, 'SPEED', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -339,6 +397,8 @@ if (vStepSeq == ${step}) {
         const speed = Blockly.Arduino.valueToCode(block, 'SPEED', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -348,6 +408,8 @@ if (vStepSeq == ${step}) {
 
     Blockly.Arduino.lineFinderCaDA_actionGoBackward = function () {
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -359,6 +421,8 @@ if (vStepSeq == ${step}) {
         const time = Blockly.Arduino.valueToCode(block, 'TIME', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -370,6 +434,8 @@ if (vStepSeq == ${step}) {
         const dist = Blockly.Arduino.valueToCode(block, 'DIST', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -382,6 +448,8 @@ if (vStepSeq == ${step}) {
         const speed = Blockly.Arduino.valueToCode(block, 'SPEED', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -394,6 +462,8 @@ if (vStepSeq == ${step}) {
         const speed = Blockly.Arduino.valueToCode(block, 'SPEED', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -403,6 +473,8 @@ if (vStepSeq == ${step}) {
 
     Blockly.Arduino.lineFinderCaDA_actionGoLeft = function () {
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -414,6 +486,8 @@ if (vStepSeq == ${step}) {
         const time = Blockly.Arduino.valueToCode(block, 'TIME', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -425,6 +499,8 @@ if (vStepSeq == ${step}) {
         const angle = Blockly.Arduino.valueToCode(block, 'ANGLE', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -437,6 +513,8 @@ if (vStepSeq == ${step}) {
         const speed = Blockly.Arduino.valueToCode(block, 'SPEED', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -449,6 +527,8 @@ if (vStepSeq == ${step}) {
         const speed = Blockly.Arduino.valueToCode(block, 'SPEED', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -458,6 +538,8 @@ if (vStepSeq == ${step}) {
 
     Blockly.Arduino.lineFinderCaDA_actionGoRight = function () {
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -469,6 +551,8 @@ if (vStepSeq == ${step}) {
         const time = Blockly.Arduino.valueToCode(block, 'TIME', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -480,6 +564,8 @@ if (vStepSeq == ${step}) {
         const angle = Blockly.Arduino.valueToCode(block, 'ANGLE', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -492,6 +578,8 @@ if (vStepSeq == ${step}) {
         const speed = Blockly.Arduino.valueToCode(block, 'SPEED', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -504,6 +592,8 @@ if (vStepSeq == ${step}) {
         const speed = Blockly.Arduino.valueToCode(block, 'SPEED', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -515,6 +605,8 @@ if (vStepSeq == ${step}) {
         const time = Blockly.Arduino.valueToCode(block, 'TIME', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -526,6 +618,8 @@ if (vStepSeq == ${step}) {
         const action = Blockly.Arduino.valueToCode(block, 'ACTION', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -540,6 +634,8 @@ if (vStepSeq == ${step}) {
         const time = Blockly.Arduino.valueToCode(block, 'TIME', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -551,6 +647,8 @@ if (vStepSeq == ${step}) {
         const value = block.getFieldValue('VALUE');
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -562,18 +660,22 @@ if (vStepSeq == ${step}) {
         const speed = Blockly.Arduino.valueToCode(block, 'SPEED', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
-        Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
+        Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
 
         return [`fctSpeedUpd(${speed})`, Blockly.Arduino.ORDER_ATOMIC];
-    };
+    };    
 
     Blockly.Arduino.lineFinderCaDA_setServoPos = function (block) {
         const pos1 = Blockly.Arduino.valueToCode(block, 'POS1', Blockly.Arduino.ORDER_ATOMIC);
         const pos2 = Blockly.Arduino.valueToCode(block, 'POS2', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -586,6 +688,8 @@ if (vStepSeq == ${step}) {
         const times = Blockly.Arduino.valueToCode(block, 'TIMES', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
@@ -597,11 +701,54 @@ if (vStepSeq == ${step}) {
         const type = Blockly.Arduino.valueToCode(block, 'TYPE', Blockly.Arduino.ORDER_ATOMIC);
 
         delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
         Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
         Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
         Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
 
         return [`fctLineFinderMode(${type})`, Blockly.Arduino.ORDER_ATOMIC];
+    };
+
+    Blockly.Arduino.lineFinderCaDA_actionLineFindeTrig = function (block) {
+        const action = Blockly.Arduino.valueToCode(block, 'ACTION', Blockly.Arduino.ORDER_ATOMIC);
+
+        delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
+        Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
+        Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';
+        Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
+
+        return [`fctWaitLFAct(${action})`, Blockly.Arduino.ORDER_ATOMIC];
+    };
+    
+    Blockly.Arduino.lineFinderCaDA_actionTiltTurn = function (block) {
+        const lean = Blockly.Arduino.valueToCode(block, 'LEAN', Blockly.Arduino.ORDER_ATOMIC);
+        const turn = Blockly.Arduino.valueToCode(block, 'TURN', Blockly.Arduino.ORDER_ATOMIC);
+
+        delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
+        Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
+        Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';
+        Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
+
+        return [`fctSpeedUpd(${lean}, ${turn})`, Blockly.Arduino.ORDER_ATOMIC];
+    };
+
+    Blockly.Arduino.lineFinderCaDA_setTimerDual = function (block) {
+        const left = Blockly.Arduino.valueToCode(block, 'LEFT', Blockly.Arduino.ORDER_ATOMIC);
+        const right = Blockly.Arduino.valueToCode(block, 'RIGHT', Blockly.Arduino.ORDER_ATOMIC);
+
+        delete Blockly.Arduino.includes_.arduino;
+        delete Blockly.Arduino.setups_['MPU6887'];
+        delete Blockly.Arduino.loops_['MPU6887']; 
+        Blockly.Arduino.includes_['CaTurbot'] = '#include <CaTurbot.h>';
+        Blockly.Arduino.setups_.CaTurbotLFR = 'fctLFRobInit();';        
+        Blockly.Arduino.loops_.CaTurbotLFR = 'fctInputUpdate();\n  fctTaskUpdate();\n  fctDiagMsg();';
+
+        return `fctTimerVar(${left}, ${right});\n`;
     };
 
     return Blockly;

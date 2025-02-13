@@ -1105,6 +1105,66 @@ function addBlocks (Blockly) {
         }
     };
 
+    Blockly.Blocks.lineFinderCaDA_actionLineFindeTrig = {
+        init: function () {
+            this.jsonInit({
+                message0: Blockly.Msg.LINEFINDERCADA_ACTIONLINEFINDERTRIG,
+                args0: [
+                    {
+                        type: 'input_value',
+                        name: 'ACTION',
+                        check: 'Boolean'
+                    }
+                ],
+                colour: actionColour,
+                secondaryColour: actionSecondaryColour,
+                extensions: ['output_boolean']
+            });
+        }
+    };
+
+    Blockly.Blocks.lineFinderCaDA_actionTiltTurn = {
+        init: function () {
+            this.jsonInit({
+                message0: Blockly.Msg.LINEFINDERCADA_ACTIONTILTTURN,
+                args0: [
+                    {
+                        type: 'input_value',
+                        name: 'LEAN'
+                    },
+                    {
+                        type: 'input_value',
+                        name: 'TURN'
+                    }
+                ],
+                colour: actionColour,
+                secondaryColour: actionSecondaryColour,
+                extensions: ['output_boolean']
+            });
+        }
+    };
+
+    Blockly.Blocks.lineFinderCaDA_setTimerDual = {
+        init: function () {
+            this.jsonInit({
+                message0: Blockly.Msg.LINEFINDERCADA_SETTIMERDUAL,
+                args0: [
+                    {
+                        type: 'input_value',
+                        name: 'LEFT'
+                    },
+                    {
+                        type: 'input_value',
+                        name: 'RIGHT'
+                    }
+                ],
+                colour: configColour,
+                secondaryColour: configSecondaryColour,
+                extensions: ['shape_statement']
+            });
+        }
+    };
+
     return Blockly;
 }
 
